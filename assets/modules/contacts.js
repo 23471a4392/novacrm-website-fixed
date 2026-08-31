@@ -9,3 +9,4 @@ export function searchContacts(list, q) {
   if (!s) return list;
   return list.filter(c => JSON.stringify(c).toLowerCase().includes(s));
 }
+// contact search note
