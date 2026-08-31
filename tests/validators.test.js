@@ -23,3 +23,4 @@ describe('NovaCRM validators', () => {
     expect(validateTask({ title: '' }).title).toBeTruthy();
   });
 });
+// coverage note
