@@ -1,0 +1,30 @@
+{
+  "name": "novacrm-website",
+  "version": "1.0.0",
+  "description": "NovaCRM — responsive browser-based CRM dashboard (HTML/CSS/JS demo)",
+  "private": true,
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx --yes serve -l 8000",
+    "build": "echo 'Static frontend — no compile step.'",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "keywords": ["crm", "sales", "pipeline", "contacts", "frontend"],
+  "author": "NovaCRM Engineering",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {},
+    "collectCoverageFrom": ["assets/utils/**/*.js", "assets/modules/**/*.js"],
+    "coverageDirectory": "coverage",
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "engines": { "node": ">=18" }
+}
