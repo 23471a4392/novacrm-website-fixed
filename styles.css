@@ -22,3 +22,4 @@ button,input,select,textarea{font:inherit}button{cursor:pointer}
 .empty{text-align:center;color:var(--muted);padding:35px}.mobile-menu{display:none}
 @media(max-width:1000px){.stats{grid-template-columns:repeat(2,1fr)}.pipeline{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.sidebar{display:none}.main{margin-left:0;width:100%}.mobile-menu{display:block}.search{width:180px}.container{padding:16px}.stats{grid-template-columns:1fr}.two,.pipeline{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.page-head{align-items:flex-start;gap:12px;flex-direction:column}}
+/* pipeline ui note */
