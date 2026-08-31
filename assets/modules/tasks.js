@@ -7,3 +7,4 @@ export function byPriority(list, priority) {
 export function openTasks(list) {
   return list.filter(t => t.status !== "Done" && t.status !== "Cancelled");
 }
+// task priority note
